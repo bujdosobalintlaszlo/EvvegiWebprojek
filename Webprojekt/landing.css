@@ -1,0 +1,95 @@
+
+
+.navbar
+{
+  border-radius:15px ;
+}
+
+#matekLogo
+{
+  max-width: 100px;
+      max-height: 70px;
+      min-width: 60px;
+      min-height: 30px;
+}
+
+  .navbar-nav.align-right {
+      margin-left: auto;
+      border-radius: 15px;
+  }
+  .nav-link
+  {
+    border-radius: 15px;
+    width: fit-content;
+  }
+.nav-link:hover
+{
+    color: rgb(57, 27, 112);
+    opacity: 85%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    width: fit-content;
+}
+.gomb
+{
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.gomb:hover
+{
+  border:1px solid rgb(57, 27, 112);
+  color: rgb(57, 27, 112);
+}
+
+.kartya
+{
+  border: 1px solid grey;
+  border-radius: 15px;
+  height: 400px;
+  width: 50%;
+}
+
+.footer
+{
+  background:rgb(202, 202, 202);
+  height: 300px;
+  width: 100%;
+  
+}
+#harmadik_blokk
+{
+  margin: auto;
+  align-items: center;
+  
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(57, 27, 112);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+}
+
+.github_logo
+{
+  height:40px;
+}
+
+#bejelentkezes_nav
+{
+  height:600px;
+  background-color: gray;
+}
